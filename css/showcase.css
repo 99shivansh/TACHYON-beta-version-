@@ -123,6 +123,7 @@
 	}
 	
 	.title span {
+		font-family: "Horizon-Outlinetwo";
 		display: block;
 		float:left;
 		margin: 0;
@@ -135,6 +136,9 @@
 		-webkit-transform: translateX(100px) scale(1.1);
 		transform: translateX(100px) scale(1.1);
 	}
+.title span :hover{
+	font-family: "Horizon";
+}
 	
 	.swiper-pagination-bullet:first-child .title span {
 		opacity: 1;

@@ -1860,6 +1860,7 @@ Primary use:	Showcase Portfolio
 		line-height:90px;
 		height:90px;
 		box-sizing: border-box;
+		font-family: horizon;
 	}
 	
 	.hero-subtitle {
@@ -2539,7 +2540,9 @@ Primary use:	Showcase Portfolio
 		line-height: 70px;
 		height: 70px;
 	}
-	
+	[data-value{
+		font-family: "horizon"
+		}]
 	.load-project-page .hero-title, .load-next-project .hero-title  {
 		transform: translateY(-70px)!important;
 		-webkit-transform: translateY(-70px)!important;
